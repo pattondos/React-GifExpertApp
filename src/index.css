@@ -1,0 +1,42 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 60px;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+input {
+  color: gray;
+  font-size: 1.2rem;
+  width: 75%;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cardGif {
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.cardGif p {
+  padding: 5px;
+  text-align: center;
+}
+
+.cardGif img {
+  max-height: 160px;
+}
